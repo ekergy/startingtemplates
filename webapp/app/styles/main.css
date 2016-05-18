@@ -9,10 +9,43 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
 
 body {
   background: #fafafa;
-  font-family: 'Roboto', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'Raleway', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   color: #333;
 }
 
 .page-title {
   outline: none;
 }
+
+/*  ****** Corporative colors ***** */
+
+/*
+
+grey
+color: rgb(113,112,112);
+
+red
+color: rgb(217,77,27);
+
+blueLight
+color: rgb(75,179,210);
+
+orange
+color: rgb(235,165,55);
+
+/* ******* End corporative colors ******* */
+
+/* ******* Corporative colors complementary ****** */
+
+/*
+
+green
+color: rgb(22,179147);
+
+blueDark
+color: rgb(47,105,199);
+
+*/
+
+/* ******* End corporative colors complementary ******** */
+
