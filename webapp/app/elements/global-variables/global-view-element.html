@@ -1,0 +1,13 @@
+<link rel="import" href="../polymer/polymer.html">
+<link rel="import" href="globals-behavior.html">
+<dom-module id="global-view-elements">
+  <template>
+    <span>{{globals.my_variable::input}}</span>
+  </template>
+  <script>
+    Polymer({
+      is: 'global-view-elements',
+      behaviors: [GlobalsBehaviour]
+    });
+  </script>
+</dom-module>

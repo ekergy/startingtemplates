@@ -1,0 +1,27 @@
+<link rel="import" href="../polymer/polymer.html">
+<link rel="import" href="../polymer/polymer.html">
+<script src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+<!-- TODO: Add styling. -->
+<!--
+-->
+<dom-module id="test-iron-viewvalue">
+  <template>
+    <div>verver</div>
+    <iron-meta id="meta" key="info" value="foo/bar"></iron-meta>
+    The <code>value</code> stored at <code>key="info"</code> is <code><span>{{test}}</span></code>.
+    <input type="text" value$="{{test}}"></input>
+
+  </template>
+</dom-module>
+<script>
+  Polymer({
+    is: 'test-iron-viewvalue',
+    properties: {
+        test: String
+      },
+    ready: function () {
+    // this will work
+      this.test = this.$.meta.byKey("info");
+    }
+  });
+</script>
